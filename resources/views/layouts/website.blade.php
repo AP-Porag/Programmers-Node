@@ -99,16 +99,22 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{route('website')}}">Home</a>
+                    <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{route('about-us')}}">About-us</a>
+                    <a class="nav-link" href="#about">About-us</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="{{route('contact')}}">Contact</a>
+                    <a class="nav-link" href="#service">Service</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
-                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                     <div class="dropdown-menu dropdown-menu-single">
                         <a href="index.html" class="dropdown-item">Homepage</a>
                         <a href="about.html" class="dropdown-item">About us</a>
@@ -116,9 +122,6 @@
                         <div class="dropdown-divider"></div>
                         <a href="login.html" class="dropdown-item">Login</a>
                     </div>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="docs/index.html">Docs</a>
                 </li>
             </ul>
             <!-- Button -->
@@ -235,6 +238,7 @@
         </div>
     </div>
 </footer>
+
 <!-- Core JS  -->
 <script src="{{asset('frontend/assets/libs/jquery/dist/jquery.min.js')}}"></script>
 <script src="{{asset('frontend/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
