@@ -14,8 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('frontend.index');
+})->name('website');
+
+Route::get('/about-us', function () {
+    return view('frontend.about');
+})->name('about-us');
+
+Route::get('/contact', function () {
+    return view('frontend.contact');
+})->name('contact');
 
 Auth::routes();
 
